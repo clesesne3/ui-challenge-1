@@ -1,0 +1,53 @@
+/* MOBILE */
+@media screen and (max-width: 800px) {
+    #a, #b, #c, #d 
+    {
+        display: block;
+        max-width: 100%;
+        border: 1px solid lightslategray;
+    }
+
+    #e, #f, #g, #h {
+        width: 50%;
+        margin: 0;
+        padding: 2em 0 2em 0;
+        border: 1px solid lightslategray;
+    }
+
+    #b {
+        padding: 1.5em 0 1.5em 0;
+    }
+
+    #c, #d {
+        padding: 1em 0 1em 0;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 800px) {
+    
+}
+
+/* COLORS */
+
+#b {
+    background-color: orange;
+}
+#c {
+    background-color: yellow;
+}
+#d {
+    background-color: green;
+}
+#e {
+    background-color: blue;
+}
+#f {
+    background-color: indigo;
+}
+#g {
+    background-color: violet;
+}
+#h {
+    background-color: lime;
+}

@@ -1,12 +1,10 @@
 
 /* MOBILE */
 @media screen and (max-width: 800px) {
-    .container {
-        display: flex;
-    }
+
 }
 
 /* DESKTOP */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) and (max-width: 960px) {
     
 }

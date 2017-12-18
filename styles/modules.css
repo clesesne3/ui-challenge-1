@@ -1,0 +1,134 @@
+/* MOBILE */
+@media screen and (max-width: 800px) {
+    #a, #b, #c, #d 
+    {
+        display: block;
+        max-width: 100%;
+        border: 1px solid lightslategray;
+    }
+
+    #e-f {
+        display: flex;
+    }
+
+    #g-h {
+        display: flex;
+    }
+
+    #e, #f, #g, #h {
+        width: 50%;
+        padding: 2em 0 2em 0;
+        border: 1px solid lightslategray;
+    }
+
+    #b {
+        padding: 1.5em 0 1.5em 0;
+        max-width: 100%;
+    }
+
+    #c, #d {
+        clear: right;
+        padding: 1em 0 1em 0;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 800px) and (max-width: 960px) {
+    .container {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .column-one {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        background-color: orange;
+        position: absolute;
+        align-items: center;
+    }
+
+    #column-one {
+        width: 20%;
+        height: 100%;
+    }
+
+    #b {
+        padding-top: 25%;
+        padding-bottom: 20%; 
+    }
+
+    .column-two {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        position: relative;
+        left: 20%;
+    }
+
+
+    .row-one {
+        flex-direction: row;
+        display: flex;
+    }
+
+    .row-one > div {
+        width: 50%;
+    }
+
+    .row-two {
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        float: left;
+    }
+
+    .row-two > div {
+        width: 25%;
+    }
+
+    #c, #d {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    #e-f, #g-h {
+        width: 50%;
+    }
+
+    #e, #f, #g, #h {
+        padding-top: 4%;
+        padding-bottom: 4%;
+        display: inline-block;
+        width: 50%;
+    }
+
+    .row-three {
+        flex-direction: row;
+    }
+}
+
+/* COLORS */
+
+#b {
+    background-color: orange;
+}
+#c {
+    background-color: yellow;
+}
+#d {
+    background-color: green;
+}
+#e {
+    background-color: blue;
+}
+#f {
+    background-color: indigo;
+}
+#g {
+    background-color: violet;
+}
+#h {
+    background-color: lime;
+}
